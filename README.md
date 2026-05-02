@@ -4,7 +4,7 @@ A comprehensive design and implementation of a Custom Electronic Speed Controlle
 
 ## System Block Diagram
 Overview of the ESC architecture, power staging, and hardware components.
-<img src="images/Diagram%20Block%20ESC.png" style="background-color: white; padding: 10px; border-radius: 8px;" width="100%" alt="System Block Diagram" />
+![System Block Diagram](images/Diagram%20Block%20ESC.jpg)
 
 ## Microcontroller Configuration (STM32CubeIDE)
 Pinout mapping, clock configuration, and peripheral initialization for the STM32 microcontroller.
