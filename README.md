@@ -32,3 +32,8 @@ Hardware verification of the 3-phase (A, B, C) output waveforms required for dri
 ## System Integration & Testing
 Comprehensive system testing integrating the custom ESC, BLDC motor, receiver, and radio controller.
 ![System Integration](images/total%20sistem.jpg)
+
+## Video Demonstration
+Watch the full presentation and functional demonstration of this Sensorless ESC (Back EMF with 6-step commutation) on YouTube:
+
+[![ESC Project Demonstration](https://img.youtube.com/vi/WF_Htxp4qzU/maxresdefault.jpg)](https://youtu.be/WF_Htxp4qzU)
