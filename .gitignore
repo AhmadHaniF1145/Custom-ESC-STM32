@@ -1,0 +1,14 @@
+# STM32CubeIDE
+Debug/
+Release/
+.metadata/
+
+# Altium Designer
+History/
+__Previews/
+Project Logs*/
+Project Outputs*/
+
+# OS Files
+Thumbs.db
+.DS_Store
