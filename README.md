@@ -1,33 +1,34 @@
-# Custom Electronic Speed Controller (ESC)
+# Custom STM32-Based Electronic Speed Controller (ESC)
 
-Proyek desain dan implementasi Electronic Speed Controller (ESC) berbasis mikrokontroler STM32. Repositori ini mencakup *firmware*, desain skematik & PCB (Altium), serta file produksi Gerber.
+A comprehensive design and implementation of a Custom Electronic Speed Controller (ESC) powered by an STM32 microcontroller. This repository contains the complete project files, including the STM32CubeIDE firmware, Altium Designer schematics and PCB layouts, as well as the Gerber production files.
 
-## Diagram Blok Sistem
-![Diagram Blok](images/Diagram%20Block%20ESC.png)
+## System Block Diagram
+Overview of the ESC architecture, power staging, and hardware components.
+![System Block Diagram](images/Diagram%20Block%20ESC.png)
 
-## Konfigurasi Mikrokontroler (STM32CubeIDE)
-Pengaturan pinout dan peripheral pada mikrokontroler STM32.
-![Konfigurasi STM32](images/stm32%20configuration.png)
+## Microcontroller Configuration (STM32CubeIDE)
+Pinout mapping, clock configuration, and peripheral initialization for the STM32 microcontroller.
+![STM32 Configuration](images/stm32%20configuration.png)
 
-## Desain PCB 3D (Altium)
-Desain layout dan penempatan komponen (Top & Bottom View).
-![3D PCB Top](images/top%20pcb%203d.png)
-![3D PCB Bottom](images/bottom%203d%20pcb.png)
+## 3D PCB Design (Altium Designer)
+Component placement and 3D layout visualization for both top and bottom layers.
+![3D PCB Top View](images/top%20pcb%203d.png)
+![3D PCB Bottom View](images/bottom%203d%20pcb.png)
 
-## Cetak PCB Fisik
-Hasil cetak PCB sebelum komponen dipasang.
-![Physical PCB Top](images/top%20pcb.jpg)
-![Physical PCB Bottom](images/bottom%20pcb.jpg)
+## Bare PCB Fabrication
+Manufactured Printed Circuit Boards (PCBs) prior to component assembly.
+![Bare PCB Top](images/top%20pcb.jpg)
+![Bare PCB Bottom](images/bottom%20pcb.jpg)
 
-## Perakitan Fisik (PCBA)
-Hasil akhir setelah penyolderan dan perakitan komponen pada PCB.
-![Assembly Top](images/assembly%20pcb%20top.jpg)
-![Assembly Bottom](images/assembly%20pcb%20bottom.jpg)
+## Physical Assembly (PCBA)
+Fully assembled and soldered Printed Circuit Board Assembly (PCBA).
+![PCBA Top](images/assembly%20pcb%20top.jpg)
+![PCBA Bottom](images/assembly%20pcb%20bottom.jpg)
 
-## Pengujian Sinyal Komutasi (Osiloskop)
-Gelombang keluaran FASA ABC untuk menggerakkan motor Brushless DC.
-![Sinyal Pengujian](images/FASA%20ABC%20100%25%20FGND%20500us.PNG)
+## Commutation Signal Testing (Oscilloscope)
+Hardware verification of the 3-phase (A, B, C) output waveforms required for driving a Brushless DC (BLDC) motor.
+![Oscilloscope Commutation Signals](images/FASA%20ABC%20100%25%20FGND%20500us.PNG)
 
-## Integrasi Sistem
-Pengujian ESC secara menyeluruh dengan motor dan *radio controller*.
-![Total Sistem](images/total%20sistem.jpg)
+## System Integration & Testing
+Comprehensive system testing integrating the custom ESC, BLDC motor, receiver, and radio controller.
+![System Integration](images/total%20sistem.jpg)
